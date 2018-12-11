@@ -1,0 +1,74 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	font-family: "Roboto", sans-serif;
+}	
+.header{
+	height: 80px;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/space.png);
+    position: fixed;
+	width: 100%;
+}
+h1{
+  position:relative;
+  left:240px;
+  bottom:10px;
+}
+.top{
+  position:absolute;
+  left:240px;
+  top:35px
+}
+h1,.top{
+  color:white;
+}
+.main{
+  padding-top: 100px;
+  
+}
+div.row{
+  margin-bottom: 20px;
+  
+  
+}
+.box{
+  height: 350px;
+  
+}
+div.img{
+  height: 270px;
+  
+}
+div.first{
+  background-image: url(images/rey_weird.png);
+  background-size: cover;
+}
+div.second{
+  background-image: url(images/finn_square.png);
+  background-size: cover;
+}
+div.third{
+  background-image: url(images/kylo_square.png);
+  background-size: cover;
+}
+div.fourth{
+  background-image: url(images/poe_square.png);
+  background-size: cover;
+}
+div.fifth{
+  background-image: url(images/chewbacca_square.png);
+  background-size: cover;
+}
+div.sixth{
+  background-image: url(images/yoda.jpg);
+  background-size: cover;
+}
+div.description{
+  height: 80px;
+  padding-left: 20px;
+  border:1px solid #BBBBBB;
+  width: 100%;
+  border-radius: 0 0 3px 3px;
+}
+
