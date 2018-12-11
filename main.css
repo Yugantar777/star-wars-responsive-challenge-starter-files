@@ -7,8 +7,9 @@ body{
 .header{
 	height: 80px;
 	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/space.png);
-    position: fixed;
+  position: fixed;
 	width: 100%;
+  background-size: cover;
 }
 h1{
   position:relative;
@@ -27,13 +28,14 @@ h1,.top{
   padding-top: 100px;
   
 }
-div.row{
+/*div.row{
   margin-bottom: 20px;
   
   
-}
+}*/
 .box{
   height: 350px;
+  margin-bottom: 20px;
   
 }
 div.img{
